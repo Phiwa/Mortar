@@ -1,0 +1,20 @@
+name: Mortar
+author: Phiwa
+main: phiwa.mortar.MortarMain
+version: 1.6
+softdepend: [Vault]
+permissions:
+    mortar.use:
+        description: Allows the player to use the mortar.
+        default: OP
+    mortar.dispensers:
+        description: Allows the player to use dispensers to fire mortars.
+        default: OP
+    mortar.*:
+        description: Allows the player to use all commands of the plugin.
+        default: OP
+        children:
+            dt.use: true
+commands:
+    mortar:
+        usage:

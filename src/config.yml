@@ -1,0 +1,30 @@
+# This file can be used to set some data for the plugin "Mortar"
+# There are two options:
+#
+# MaxPower: This is the highest power the players can set their mortar's power to. It is limited to 10 to prevent your server to crash too easily.
+# DefaultPower: This is the power, the player's mortars are set to when the players join.
+# Warning: This is the warning a player automatically sends to the chat when using a mortar.
+# Mortar-Item: Set the ItemID of the item the players use the mortar with.
+#
+# Use-Costs: Set this enabled to make your players pay when using the mortar.
+# Item: This item is used to pay for Mortar-Shots.
+# Amount: This is the amount of the item above which is removed when a mortar is fired.
+
+
+Mortar:    
+    MaxPower: 5
+    DefaultPower: 5
+    SendWarning: true
+    Warning: "Fire in the hole!"
+    Mortar-Item: 280
+Costs:
+    PayForShots: false
+    UseItems: false
+    UseEconomy: false
+PayWithItems:
+    Item: 266
+    Amount: 1
+PayWithEconomy:
+    Amount: 10.0
+UseWorldGuard: false
+UseDispensers: false
